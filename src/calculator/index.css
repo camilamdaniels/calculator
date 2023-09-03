@@ -1,5 +1,6 @@
 .calculator {
     margin: 150px;
+    color: white;
 }
 
 .buttonWrapper {
@@ -10,25 +11,25 @@
 }
 
 .mode {
-    background-color: pink;
+    background-color: #f198b3;
     border-radius: 5px;
     padding: 5px;
 }
 
 .operand {
-    background-color: gray;
+    background-color: #f3aac0;
     border-radius: 5px;
     padding: 5px;
 }
 
 .value {
-    background-color: lightgrey;
+    background-color: #f8ccd9;
     border-radius: 5px;
     padding: 5px;
 }
 
 .number {
-    background-color: lightpink;
+    background-color: #f5bbcc;
     border-radius: 5px;
     padding: 5px;
 }
@@ -43,4 +44,12 @@ input {
     grid-column: 1 / 8;
     grid-row: 1;
     padding: 7px;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: pink;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input:focus {
+    outline: none;
 }
