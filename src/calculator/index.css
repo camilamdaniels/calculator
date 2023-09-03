@@ -1,0 +1,46 @@
+.calculator {
+    margin: 150px;
+}
+
+.buttonWrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.mode {
+    background-color: pink;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.operand {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.value {
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.number {
+    background-color: lightpink;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.evaluator {
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 5px
+}
+
+input {
+    grid-column: 1 / 8;
+    grid-row: 1;
+    padding: 7px;
+}
