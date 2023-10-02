@@ -11,25 +11,25 @@
 }
 
 .mode {
-    background-color: #f198b3;
+    background-color: #e673e6;
     border-radius: 5px;
     padding: 5px;
 }
 
 .operand {
-    background-color: #f3aac0;
+    background-color: #ff80ff;
     border-radius: 5px;
     padding: 5px;
 }
 
 .value {
-    background-color: #f8ccd9;
+    background-color: #ffccff;
     border-radius: 5px;
     padding: 5px;
 }
 
 .number {
-    background-color: #f5bbcc;
+    background-color: #ffc0ff;
     border-radius: 5px;
     padding: 5px;
 }
@@ -46,7 +46,7 @@ input {
     padding: 7px;
     border-radius: 3px;
     border: 1px solid white;
-    color: pink;
+    color: #e673e6;
     font-family: 'Montserrat', sans-serif;
     text-align: right;
 }
